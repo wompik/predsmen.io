@@ -1,0 +1,86 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #303030;
+    color: #ffffff;
+}
+
+input[type="text"]::placeholder {
+    color: #aaaaaa;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: center; /* Центрируем текст вопроса */
+    padding: 10px;
+    border: 1px solid #444444;
+    margin: 5px 0;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+}
+
+.question {
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 5px; /* Отступ между вопросом и ответом */
+}
+
+.answer {
+    color: #ffffff; /* Цвет текста ответа */
+    margin-top: 5px; /* Отступ сверху для разделения */
+}
+
+img {
+    max-width: 250px; /* Пример настройки максимальной ширины */
+    height: auto; /* Сохраняет пропорции изображения */
+}
